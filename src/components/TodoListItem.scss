@@ -5,7 +5,7 @@
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: center; // 세로 중앙 정렬
   &:nth-child(even) {
     background: #f8f9fa;
   }
@@ -29,6 +29,7 @@
       -ms-flex: 1;
       flex: 1;
     }
+    // 체크되었을 때 보여 줄 스타일
     &.checked {
       svg {
         color: #22b9cf;
